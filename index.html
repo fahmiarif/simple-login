@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="flex">
+        <div class="w-6/12 h-screen overflow-hidden h-screen">
+            <img class="object-cover" src="image.jpg" alt="">
+        </div>
+        <div class="w-6/12 flex justify-center">
+            <div class="flex justify-center flex-col relative">
+                <h5 class="text-sm">Welcome back</h5>
+                <h1 class="text-3xl font-bold">Login to your account</h1>
+                <form action="" class="flex flex-col mt-4">
+                    <label for="">Email</label>
+                    <input type="text" class="px-4 py-2 border rounded" placeholder="email@gmail.com">
+                    <label class="mt-4" for="">Password</label>
+                    <input type="password" class="px-4 py-2 border rounded" placeholder="********">
+                    <div class="flex justify-between mt-4">
+                        <div class="flex items-center space-x-1">
+                            <input type="checkbox" name="" id="">
+                            <span>Remember me</span>
+                        </div>
+                        <a class="text-blue-500" href="#">Forgot password?</a>
+                    </div>
+                    <button class="bg-green-500 rounded px-4 py-2 text-white mt-4 font-medium hover:bg-green-600 duration-300 transition">Login Now</button>
+                    <button class="bg-gray-500 flex justify-center items-center rounded px-4 py-2 text-white mt-4 font-medium">
+                        <img class="mr-2" src="icon.png" alt="">
+                        Or signin with google
+                    </button>
+                </form>
+                <p class="absolute bottom-0 mb-4">Dont have an account? <a href="#" class="text-blue-500">Join free today</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
